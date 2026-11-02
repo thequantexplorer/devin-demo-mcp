@@ -1,0 +1,19 @@
+{
+  "name": "acme-delivery-eta",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Delivery date promises for the Acme storefront checkout page",
+  "type": "module",
+  "main": "src/eta.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "eta": "node scripts/eta.js"
+  },
+  "dependencies": {
+    "@date-fns/tz": "^1.5.0",
+    "date-fns": "^4.4.0"
+  }
+}
